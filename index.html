@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Web 3.0</title>
+</head>
+<body>
+    <div class="main-wrapper">
+        <div class="nav-wrapper">
+            <div class="logo-wrapper">
+                <a href="index.html">  
+                    <img src="images/logo.svg" class="logo-img" alt="Logo">
+                </a>
+            </div>
+            <div class="nav-links-wrapper" id="mobile-nav-wrapper">
+                <a href="javascript:void(0)" class="close-icon" id="close-menu" onclick="hideMenu()"> &times;</a>
+                <div class="navigation-links" id="mobile-nav-links">
+                    <a href="#home"><ul><li>Home</li></ul></a>
+                    <a href="#new"><ul><li>New</li></ul></a>
+                    <a href="#popular"><ul><li>Popular</li></ul></a>
+                    <a href="#trending"><ul><li>Trending</li></ul></a>
+                    <a href="#categories"><ul><li>Categories</li></ul></a>
+                </div> 
+            </div> 
+            <i class="fa-solid fa-bars-staggered" id="menu-button" onclick="showMenu()"></i>
+        </div> 
+        <div class="hero-grid-wrapper">
+            <div class="hero-img-content-wrapper">
+                <div class="hero-img-wrapper">
+                    <img class="hero-img" src="images/image-web-3-desktop.jpg" alt="image-web-3-desktop">
+                    <img class="hero-img-mobile" src="images/image-web-3-mobile.jpg" alt="image-web-3-mobile">
+                </div>
+                <div class="hero-content-wrapper">
+                    <div class="hero-header-wrapper">
+                        <h1 class="hero-title">
+                            The Bright Future of Web 3.0?
+                        </h1>
+                    </div>
+                    <div class="hero-body-wrapper">
+                        <p class="hero-body-description">
+                            We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?
+                        </p>
+                        <button class="hero-body-btn">
+                            Read More
+                        </button>
+                    </div>
+                </div> 
+            </div> 
+            <div class="sidebar-wrapper">
+                <h2 class="sidebar-title" id="new">
+                    New
+                </h2>
+                <div class="sidebar-news-wrapper">
+                    <div class="sidebar-news-item">
+                        <h3 class="sidebar-news-title">
+                            Hydrogen VS Electric Cars
+                        </h3>
+                        <p class="sidebar-news-description">
+                            Will hydrogen-fueled cars ever catch up to EVs?
+                        </p>
+                    </div>
+                    <div class="sidebar-news-item">
+                        <h3 class="sidebar-news-title">
+                            The Downsides of AI Artistry
+                        </h3>
+                        <p class="sidebar-news-description">
+                            What are the possible adverse effects of on-demand AI image generation?
+                        </p>
+                    </div>
+                    <div class="sidebar-news-item">
+                        <h3 class="sidebar-news-title">
+                            Is VC Funding Drying Up?
+                        </h3>
+                        <p class="sidebar-news-description">
+                            Private funding by VC firms is down 50% YOY. We take a look at what that means.
+                        </p>
+                    </div>
+                </div> 
+            </div> 
+        </div>
+        <div class="recent-news-wrapper">
+            <div class="recent-news-card">
+                <div class="recent-news-img-wrapper">
+                    <img src="images/image-retro-pcs.jpg" alt="Retro PCs">
+                </div>
+                <div class="recent-news-content-wrapper">
+                    <h2 class="recent-news-index">
+                        01
+                    </h2>
+                    <h3 class="recent-news-title">
+                        Reviving Retro PCs
+                    </h3>
+                    <p class="recent-news-description">
+                        What happens when old PCs are given modern upgrades
+                    </p>
+                </div>
+            </div>
+            <div class="recent-news-card">
+                <div class="recent-news-img-wrapper">
+                    <img src="images/image-top-laptops.jpg" alt="Top Laptops">
+                </div>
+                <div class="recent-news-content-wrapper">
+                    <h2 class="recent-news-index">
+                        02
+                    </h2>
+                    <h3 class="recent-news-title">
+                        Top 10 Laptops of 2022
+                    </h3>
+                    <p class="recent-news-description">
+                        Our best picks for various needs and budgets.
+                    </p>
+                </div>
+            </div>
+            <div class="recent-news-card">
+                <div class="recent-news-img-wrapper">
+                    <img src="images/image-gaming-growth.jpg" alt="Gaming Growth">
+                </div>
+                <div class="recent-news-content-wrapper">
+                    <h2 class="recent-news-index">
+                        03
+                    </h2>
+                    <h3 class="recent-news-title">
+                        The Growth of Gaming
+                    </h3>
+                    <p class="recent-news-description">
+                        How the pandemic has sparked fresh opportunities.
+                    </p>
+                </div>
+            </div>
+        </div> 
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
